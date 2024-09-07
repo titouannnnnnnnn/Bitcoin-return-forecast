@@ -9,9 +9,9 @@ Pour répondre à ce sujet, nous allons suivre une approche en plusieurs étapes
 
 1) preprocessing avec export et formatage des données : nous commencerons par extraire les données pertinentes (carnet d'ordre et trades passés) et les formater de manière appropriée pour les utiliser dans notre modèle :
 
-a) statistique descriptives
+1.1) statistique descriptives
 
-b) graphs
+1.2) graphs
 
 2) recherche de notre variable target : rendements
 
@@ -19,11 +19,11 @@ b) graphs
 
 4) construction des modèles : nous allons développer trois types de modèles :
 
-a) modèle simple : un modèle de référence pour évaluer la performance de nos autres modèles (type MCO)
+4.1) modèle simple : un modèle de référence pour évaluer la performance de nos autres modèles (type MCO)
 
-b) modèle non supervisé (moins pertinent pour notre problématique, nous avons un problème de regression) : nous explorerons également des approches non supervisées pour en extraire éventuellement des informations utiles via le modèle PCA.
+4.2) modèle non supervisé (moins pertinent pour notre problématique, nous avons un problème de regression) : nous explorerons également des approches non supervisées pour en extraire éventuellement des informations utiles via le modèle PCA.
 
-c) modèle supervisé : coeur de notre approche, nous entraînerons des modèles supervisés pour prédire les rendements du carnet d'ordres en fonction de nos différentes features.
+4.3) modèle supervisé : coeur de notre approche, nous entraînerons des modèles supervisés pour prédire les rendements du carnet d'ordres en fonction de nos différentes features.
 
 5) Analyse des résultats et comparaison des différents modèles
 
